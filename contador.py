@@ -19,17 +19,19 @@ class MyWindowClass(QtWidgets.QMainWindow, form_class):
       b = float(self.veintc.text())
       c = float(self.trein.text())
       d = float(self.tax.text())
-
-      f = round(20 * a) #hace el calculo tomando el dato de a
-      g = round(25 * b) #hace el calculo tomando el dato de b
-      h = round(35 * c) #hace el calculo tomando el dato de c
-      i = round(25 * d) #hace el calculo tomando el dato de d
+      
+#hace el calculo tomando el dato de a,b,c y d
+      f = round(20 * a) 
+      g = round(25 * b) 
+      h = round(35 * c) 
+      i = round(25 * d) 
 
       result = round(f+g+h+i)
       resultf = round(a+b+c+d)
-
-      self.td.setText(str(result))  #muestra la informacion obtenida en el cuadro td
-      self.tf.setText(str(resultf))  #muestra la informacion obtenida en el cuadro tf
+      
+#muestra la informacion obtenida en el cuadro td,tf,vein_1,veintc_1,trein_1 y tax_1
+      self.td.setText(str(result))  
+      self.tf.setText(str(resultf))  
       self.vein_1.setText(str(f))
       self.veintc_1.setText(str(g))
       self.trein_1.setText(str(h))
