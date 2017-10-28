@@ -13,7 +13,7 @@ class MyWindowClass(QtWidgets.QMainWindow, form_class):
     self.calc.clicked.connect(self.calc_clicked)
   
 
- # boton btn_Ctof
+ # boton btn calc
   def calc_clicked(self):
       a = float(self.vein.text())  #toma el dato ingresado por el usuario
       b = float(self.veintc.text())
@@ -23,9 +23,17 @@ class MyWindowClass(QtWidgets.QMainWindow, form_class):
       f = round(20 * a) #hace el calculo tomando el dato de a
       g = round(25 * b) #hace el calculo tomando el dato de b
       h = round(35 * c) #hace el calculo tomando el dato de c
-      i = round(1 * d) #hace el calculo tomando el dato de d
+      i = round(25 * d) #hace el calculo tomando el dato de d
+
       result = round(f+g+h+i)
-      self.td.setText(str(result))  #muestra la informacion obtenida en el cuadro fah
+      resultf = round(a+b+c+d)
+
+      self.td.setText(str(result))  #muestra la informacion obtenida en el cuadro td
+      self.tf.setText(str(resultf))  #muestra la informacion obtenida en el cuadro tf
+      self.vein_1.setText(str(f))
+      self.veintc_1.setText(str(g))
+      self.trein_1.setText(str(h))
+      self.tax_1.setText(str(i))
  
  
  

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>509</width>
-    <height>255</height>
+    <width>629</width>
+    <height>283</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>201</width>
+      <width>221</width>
       <height>21</height>
      </rect>
     </property>
@@ -44,7 +44,7 @@
      <rect>
       <x>10</x>
       <y>50</y>
-      <width>201</width>
+      <width>221</width>
       <height>21</height>
      </rect>
     </property>
@@ -69,7 +69,7 @@
      <rect>
       <x>10</x>
       <y>90</y>
-      <width>201</width>
+      <width>221</width>
       <height>21</height>
      </rect>
     </property>
@@ -102,7 +102,7 @@
      <bool>false</bool>
     </property>
     <property name="text">
-     <string>Ingrese # de facturas de Taxis</string>
+     <string>Ingrese la cantida de Taxis</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -117,7 +117,7 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>420</x>
       <y>10</y>
       <width>121</width>
       <height>21</height>
@@ -142,7 +142,7 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>420</x>
       <y>90</y>
       <width>121</width>
       <height>21</height>
@@ -168,7 +168,7 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>170</y>
+      <y>190</y>
       <width>241</width>
       <height>34</height>
      </rect>
@@ -180,9 +180,9 @@
    <widget class="QLineEdit" name="vein">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>230</x>
       <y>10</y>
-      <width>113</width>
+      <width>51</width>
       <height>32</height>
      </rect>
     </property>
@@ -190,9 +190,9 @@
    <widget class="QLineEdit" name="veintc">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>230</x>
       <y>50</y>
-      <width>113</width>
+      <width>51</width>
       <height>32</height>
      </rect>
     </property>
@@ -200,9 +200,9 @@
    <widget class="QLineEdit" name="tax">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>230</x>
       <y>130</y>
-      <width>113</width>
+      <width>51</width>
       <height>32</height>
      </rect>
     </property>
@@ -210,9 +210,9 @@
    <widget class="QLineEdit" name="trein">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>230</x>
       <y>90</y>
-      <width>113</width>
+      <width>51</width>
       <height>32</height>
      </rect>
     </property>
@@ -220,7 +220,7 @@
    <widget class="QLineEdit" name="td">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>420</x>
       <y>120</y>
       <width>121</width>
       <height>32</height>
@@ -230,9 +230,149 @@
    <widget class="QLineEdit" name="tf">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>420</x>
       <y>40</y>
       <width>121</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>LPS</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>90</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>LPS</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>50</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>LPS</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>130</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>LPS</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="vein_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>51</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="veintc_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>50</y>
+      <width>51</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="trein_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>51</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tax_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>130</y>
+      <width>51</width>
       <height>32</height>
      </rect>
     </property>
@@ -243,8 +383,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>509</width>
-     <height>30</height>
+     <width>629</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
