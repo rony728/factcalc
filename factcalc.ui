@@ -10,6 +10,12 @@
     <height>283</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -22,6 +28,12 @@
       <width>221</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
@@ -48,6 +60,12 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
@@ -72,6 +90,12 @@
       <width>221</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
@@ -98,6 +122,12 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
@@ -122,6 +152,12 @@
       <width>121</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
@@ -148,6 +184,12 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
@@ -172,6 +214,13 @@
       <width>241</width>
       <height>34</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>Calcular</string>
@@ -246,6 +295,12 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
@@ -270,6 +325,12 @@
       <width>31</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
@@ -296,6 +357,12 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
@@ -313,6 +380,9 @@
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -320,6 +390,12 @@
       <width>31</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
@@ -384,7 +460,7 @@
      <x>0</x>
      <y>0</y>
      <width>629</width>
-     <height>22</height>
+     <height>30</height>
     </rect>
    </property>
   </widget>
